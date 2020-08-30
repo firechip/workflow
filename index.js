@@ -39,5 +39,17 @@ Object.keys(_Realtek).forEach(function (key) {
   });
 });
 
+var _Serial = require("./Serial");
+
+Object.keys(_Serial).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function get() {
+      return _Serial[key];
+    }
+  });
+});
+
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }

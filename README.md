@@ -1,3 +1,3 @@
 # Workflow
 
-Brands for Spectrum icons in React
+Custom icons for Spectrum icons in React

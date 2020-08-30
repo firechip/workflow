@@ -1,8 +1,8 @@
 {
   "name": "@firechip/workflow",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "index.js",
-  "description": "Brands for Spectrum icons in React",
+  "description": "Custom icons for Spectrum icons in React",
   "license": "CC-BY-ND-4.0",
   "keywords": [
     "react",
