@@ -27,5 +27,17 @@ Object.keys(_Mstar).forEach(function (key) {
   });
 });
 
+var _Realtek = require("./Realtek");
+
+Object.keys(_Realtek).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function get() {
+      return _Realtek[key];
+    }
+  });
+});
+
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
