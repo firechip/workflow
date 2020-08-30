@@ -23,5 +23,9 @@
     "email": "ajsb85@firechip.dev",
     "url": "https://ajsb85.com/"
   },
-  "homepage": "https://github.com/firechip/workflow#readme"
+  "homepage": "https://github.com/firechip/workflow#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "private": false
 }
