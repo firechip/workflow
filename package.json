@@ -1,0 +1,27 @@
+{
+  "name": "@firechip/workflow",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Brands for Spectrum icons in React",
+  "license": "CC-BY-ND-4.0",
+  "keywords": [
+    "react",
+    "Spectrum",
+    "brands"
+  ],
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "@spectrum-icons/workflow": "^3.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firechip/workflow.git"
+  },
+  "author": {
+    "name": "Alexander Salas Bastidas",
+    "email": "ajsb85@firechip.dev",
+    "url": "https://ajsb85.com/"
+  },
+  "homepage": "https://github.com/firechip/workflow#readme"
+}
