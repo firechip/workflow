@@ -51,5 +51,18 @@ Object.keys(_Serial).forEach(function (key) {
   });
 });
 
+var _Bluetooth = require("./Bluetooth");
+
+Object.keys(_Bluetooth).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function get() {
+      return _Bluetooth[key];
+    }
+  });
+});
+
+
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
